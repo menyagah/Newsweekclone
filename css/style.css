@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #F4F5F6;
+    
+}
+
+.top-story {
+    height: 2130px;
+    overflow-y: scroll;
+    
+}
+
+.top-story::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid {
+    background-color: white;
+}
+.heading {
+    font-size: 15px;
+    color: #9A9A9A;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-1{
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+}
