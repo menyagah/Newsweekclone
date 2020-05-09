@@ -11,8 +11,14 @@ body {
     
 }
 
+.content-1 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
 .top-story {
-    height: 2130px;
+    height: 1810px;
     overflow-y: scroll;
     
 }
@@ -26,7 +32,15 @@ body {
 }
 .heading {
     font-size: 15px;
-    color: #9A9A9A;
+    color: #818285;
+    font-weight: 900;
+}
+
+.heading-1 {
+    font-size: 15px;
+    font-weight: 900;
+    color: #818285;
+    padding-top: 20px;
 }
 
 .image{
@@ -41,4 +55,119 @@ body {
     width: 70px;
     background-size: cover;
     background-position: center;
+}
+
+.image-2{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+.border-1 {
+    border: 2px solid #EE4957;
+}
+
+.border-2 {
+    border: .7px solid rgb(189, 189, 189);
+    border-right: 0;
+    border-left: 0;
+    padding-bottom:3px ;
+    position: relative;
+}
+
+.border-3 {
+    border: 2px solid #1C87FB;
+}
+ 
+.h-3 {
+    font-size: 20px;
+    line-height: 22px;
+    color: #272727;
+    font-weight: 400;
+}
+
+.h-3:hover {
+    text-decoration: none;
+    color: #272727;
+}
+
+.h-4 {
+    font-size: 16px;
+    line-height: 21px;
+    color:black;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.h-4:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.h-5 {
+    font-size: 16px;
+    line-height: 21px;
+    color: #000;
+    padding-top: 10px;
+}
+
+.h-6 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 700;
+
+}
+
+.h-5:hover,
+.h-6:hover {
+    color: #000;
+    text-decoration-color:#EE4957;
+}
+
+.h-7 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #000;
+}
+
+.h-7:hover {
+    color: #f72210;
+    text-decoration: none;
+
+}
+
+.muted {
+    font-size: 14px;
+    line-height: 21px;
+    color: #55565A;
+    font-weight: 700;
+}
+
+.container-1 {
+    height: 40px;
+    position: relative;
+}
+
+.debate {
+    margin-left: 70%;
+    top: -20px;
+    left: 0;
+    position: absolute;
+}
+
+.vs-cont {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs {
+    height: 30px;
+    width: 30px;    
 }
