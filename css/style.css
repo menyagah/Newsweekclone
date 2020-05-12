@@ -5,11 +5,23 @@
 }
 
 body {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #F4F5F6;
     
 }
+
+.container-fluid {
+    background-color: white;
+    margin: 0;
+    
+}
+
+.row {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 
 .content-1 {
     font-size: 15px;
@@ -18,7 +30,7 @@ body {
 }
 
 .top-story {
-    height: 1810px;
+    height: 1745px;
     overflow-y: scroll;
     
 }
@@ -27,9 +39,6 @@ body {
     display: none;
 }
 
-.container-fluid {
-    background-color: white;
-}
 .heading {
     font-size: 15px;
     color: #818285;
