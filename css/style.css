@@ -4,24 +4,24 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #F4F5F6;
-    
+    background-color: #F4F5F6;    
 }
+
+
 
 .container-fluid {
     background-color: white;
     margin: 0;
-    
+    padding-right: 30px;
+    padding-left: 30px;    
 }
-
-.row {
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
 
 .content-1 {
     font-size: 15px;
@@ -30,7 +30,7 @@ body {
 }
 
 .top-story {
-    height: 1745px;
+    height: 1640px;
     overflow-y: scroll;
     
 }
@@ -115,19 +115,18 @@ body {
 }
 
 .h-5 {
-    font-size: 16px;
+    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     line-height: 21px;
     color: #000;
     padding-top: 10px;
 }
 
 .h-6 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 5px;
     color: #000;
-    padding-top: 10px;
+    padding-top: 7px;
     font-weight: 700;
-
 }
 
 .h-5:hover,
@@ -137,21 +136,20 @@ body {
 }
 
 .h-7 {
-    font-size: 17px;
+    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 700;
-    line-height: 21px;
+    line-height: 5px;
     color: #000;
 }
 
 .h-7:hover {
     color: #f72210;
     text-decoration: none;
-
 }
 
 .muted {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 10px;
     color: #55565A;
     font-weight: 700;
 }
@@ -169,14 +167,47 @@ body {
 }
 
 .vs-cont {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.rounded-circle {
+    width: 70px;
+    height: 70px;
+}
+
 .vs {
     height: 30px;
     width: 30px;    
+}
+
+.par {
+    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.card-center {
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card-center {
+        height: 15em;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .last-text {
+        display: none;
+    }
+
+    .par {
+        font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
 }
