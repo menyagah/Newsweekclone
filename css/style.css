@@ -14,7 +14,10 @@ body {
     background-color: #F4F5F6;    
 }
 
-
+.logo {
+    height: 30px;
+    width: 30px;
+}
 
 .container-fluid {
     background-color: white;
@@ -30,7 +33,7 @@ body {
 }
 
 .top-story {
-    height: 1620px;
+    height: 1690px;
     overflow-y: scroll;
     
 }
@@ -128,6 +131,33 @@ body {
     font-weight: 700;
 }
 
+.h-6-1 {
+    font-size: 18px;
+    line-height: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.h-6-2 {
+    font-size: 16px;
+    line-height: 2px;
+    color: #EF4430;
+    font-weight: 900;
+}
+
+.h-6-3 {
+    font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+    line-height: 5px;
+    color: #000;
+    padding-top: 7px;
+    font-weight: 700;
+}
+
+.h-6-2:hover {
+    text-decoration: none;
+    color: #EF4430;
+}
+
 .h-5:hover,
 .h-6:hover {
     color: #000;
@@ -196,12 +226,66 @@ body {
     align-items: flex-end;
 }
 
+.image-mag {
+    height: 18rem;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.image-mag-2 {
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.under-button {
+    display: flex;
+    background-color: #DBDCDD;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.under-button-1 {
+    display: flex;
+    background-color:#EF4430;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.icon-arrow {
+   font-weight: 900;
+   font-size: 22px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.next-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
 @media only screen and (max-width: 1024px) {
     .card-center {
         height: 15em;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .last-text {
+        display: none;
     }
 
     .par {
@@ -211,4 +295,30 @@ body {
     body {
         padding: 0;    
     }
+
+    .container-fluid {
+        padding-right: 10px;
+        padding-left: 10px;   
+        overflow: hidden;
+    }
+
+
+    .image-mag-2 {
+        width: 100%;
+        
+    }
+
+    .cover {
+        padding-top: 15px;
+    }
+ 
+    .h-6-1 {
+        font-size: 10px;
+    }
+
+    .h-6-2 {
+        font-size: 10px;
+    }
+
+
 }
