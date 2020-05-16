@@ -34,8 +34,16 @@ body {
 
 .top-story {
     height: 1690px;
-    overflow-y: scroll;
-    
+    overflow-y: scroll;   
+}
+
+.card-text {
+    display: flex;
+    padding-bottom: 2px;    
+}
+
+.my-card {
+    background-color: #F4F5F6;
 }
 
 .top-story::-webkit-scrollbar {
@@ -174,7 +182,7 @@ body {
 .h-7 {
     font-size: 15px;
     font-weight: 700;
-    line-height: 5px;
+    line-height: 12px;
     color: #000;
 }
 
