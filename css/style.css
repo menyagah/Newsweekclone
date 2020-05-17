@@ -191,6 +191,18 @@ body {
     text-decoration: none;
 }
 
+.h-8 {
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    padding-top: 7px;
+    font-weight: 700;
+}
+
+.last-con {
+    color: #383838;
+}
+
 .muted {
     font-size: 12px;
     line-height: 10px;
@@ -291,6 +303,35 @@ body {
     align-items: center;
     height: 30px;
 }
+
+.image-over {
+    position: absolute;
+    
+    
+    
+}
+
+.image-over-2 {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 80px;
+
+}
+
+.iphone {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 288px;
+    background-image: url(/img/starting5-homepage.png);
+    background-position: 50% 50%;
+
+}
+
+.card-iphone {
+    height: 290px;
+}
+
 @media only screen and (max-width: 1024px) {
     .card-center {
         height: 15em;
@@ -333,6 +374,10 @@ body {
 
     .h-6-2 {
         font-size: 10px;
+    }
+
+    .iphone {
+        display: none;
     }
 
 
