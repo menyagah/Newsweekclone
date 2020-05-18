@@ -604,9 +604,9 @@ body {
         display: inline;
         padding-left: 5px;
         color: white;
-        font-size: font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+        font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
-}
+} 
 
 
 
