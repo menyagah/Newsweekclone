@@ -602,8 +602,9 @@ body {
     .icon-burger {
         display: inline;
         padding-left: 5px;
-        color: white;
-        font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        color: #fff;
+        font-weight: 900;
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
 } 
 
