@@ -5,12 +5,12 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 body {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #f4f5f6;
 }
 
@@ -31,6 +31,10 @@ body {
   height: 110px;
   background-color: #ef4430;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 100%, 94% 88%, 0% 88%);
+}
+
+.top-story-1 {
+    display: none;
 }
 
 .first {
@@ -237,12 +241,12 @@ body {
 }
 
 .h-6-logo {
-  font-size: 18px;
+  font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   line-height: 5px;
   color: #ef4430;
   font-weight: 700;
-  padding-right: 3px;
-  padding-left: 3px;
+  padding-right: 2px;
+  padding-left: 2px;
 }
 
 .h-6-2 {
@@ -287,7 +291,7 @@ body {
 }
 
 .h-7-nav {
-  font-size: 16px;
+    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .h-7:hover,
@@ -539,7 +543,7 @@ body {
   }
 
   .h-7-nav {
-    font-size: 12px;
+    font-size: calc(7px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 
   nav li {
@@ -547,7 +551,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 994px) {
   .bottom-header {
     display: none;
   }
@@ -656,10 +660,23 @@ body {
     padding-left: 5px;
     color: #fff;
     font-weight: 900;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(18px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 
   .footer-top {
     flex-direction: column;
   }
+
+  .img-fluid {
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .top-story-1 {
+        display: inline;
+    }
+    .top-story {
+        display: none;
+    }
 }
