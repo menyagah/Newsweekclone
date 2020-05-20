@@ -18,7 +18,7 @@ This was a solo project. The project uses basic html5 and css3.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/menyagah/Newsweekclone/cdcf385ddf1b058f9a9a0613ccd26af5538bfbf8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/menyagah/Newsweekclone/b322ce91979d395c04f0c61e73df1325490aade3/index.html)
 
 
 ## Getting Started
