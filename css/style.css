@@ -86,18 +86,13 @@ body {
     text-decoration: none;
 }
 
-
-
 .logo-1 {
     width: auto;
 }
 
-
-
 .mobile {
     display: none;
 }
-
 
 .container-fluid-1 {
     background-color: white;    
@@ -473,6 +468,34 @@ body {
     height: 290px;
 }
 
+.footer {
+    margin-top: 1px;
+    height: auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.footer-logo {
+    background-color: brown;
+    width: 200px;
+}
+
+.icon-footer {
+    height: 25px;
+    width: 25px;
+    padding-right: 20px;
+    color: #666666;
+}
+
+.footer-link {
+    color: grey;
+}
+
 @media only screen and (max-width: 1024px) {
     .card-center {
         height: 15em;
@@ -647,6 +670,10 @@ body {
         color: #fff;
         font-weight: 900;
         font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+
+    .footer-top {
+        flex-direction: column;
     }
 } 
 
