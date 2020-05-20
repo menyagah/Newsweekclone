@@ -13,6 +13,7 @@ This was a solo project. The project uses basic html5 and css3.
 
 - Html5
 - css3
+- Bootstrap
 
 
 ## Live Demo
