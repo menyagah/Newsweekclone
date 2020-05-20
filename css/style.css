@@ -34,7 +34,7 @@ body {
 }
 
 .top-story-1 {
-    display: none;
+  display: none;
 }
 
 .first {
@@ -291,7 +291,7 @@ body {
 }
 
 .h-7-nav {
-    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .h-7:hover,
@@ -668,15 +668,16 @@ body {
   }
 
   .img-fluid {
-      width: 100%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-    .top-story-1 {
-        display: inline;
-    }
-    .top-story {
-        display: none;
-    }
+  .top-story-1 {
+    display: inline;
+  }
+
+  .top-story {
+    display: none;
+  }
 }
