@@ -1,14 +1,6 @@
 # Newsweekclone
 This a newsweek clone from the original website. The main agenda behind creating this website is to show the use and understanding of bootsrap.
 
-- Below is a screenshot of the nextweb clone in action.
-
-![screenshot](img/screenshot.png)
-
-
-
-This was a solo project. The project uses basic html5 and css3. 
-
 ## Built With
 
 - Html5
@@ -18,12 +10,22 @@ This was a solo project. The project uses basic html5 and css3.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/menyagah/Newsweekclone/4ecc1c4b3e726abdd8ae4540927463021e331f5c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/menyagah/Newsweekclone/c137f3e0e12cdf896450ad4265e1c6e25608598e/index.html)
 
 
 ## Getting Started
 
 This is a basic html5 and css3 webpage that is static. Simply clone or download the files from the github repo and click on index.html to launch the webpage.
+
+- Below is a screenshot of the nextweb clone in action.
+
+![screenshot](img/screenshot.png)
+
+
+
+This was a solo project. The project uses basic html5 and css3. 
+
+
 
 
 ## Author
