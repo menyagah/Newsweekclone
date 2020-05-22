@@ -9,8 +9,6 @@ html {
 }
 
 body {
-  padding-left: 10px;
-  padding-right: 10px;
   background-color: #f4f5f6;
 }
 
@@ -31,6 +29,8 @@ body {
 
 .bottom-header {
   height: 40px;
+  width: 100%;
+  padding: 0;
 }
 
 .icon-header,
@@ -108,6 +108,12 @@ body {
 .image-1 {
   height: 80px;
   width: 100px;
+}
+
+.image-1-mob {
+  height: 40px;
+  width: 80px;
+  background-repeat: no-repeat;
 }
 
 .image-2 {
@@ -239,7 +245,7 @@ body {
 }
 
 .h-7-nav {
-  font-size: 15px;
+  font-size: calc(4px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .h-7:hover,
@@ -277,6 +283,17 @@ body {
   top: -20px;
   left: 0;
   position: absolute;
+}
+
+.debate-2 {
+  margin-left: 40%;
+  top: -28px;
+  left: 0;
+  position: absolute;
+}
+
+.mobile-view {
+  display: none;
 }
 
 .vs-cont {
@@ -426,7 +443,6 @@ body {
 }
 
 .footer-logo {
-  background-color: brown;
   width: 200px;
 }
 
@@ -491,7 +507,7 @@ body {
   }
 
   .h-7-nav {
-    font-size: calc(7px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(3px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 }
 
@@ -597,6 +613,14 @@ body {
 
   .sample {
     display: none;
+  }
+
+  .lg-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: inline;
   }
 }
 
