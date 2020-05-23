@@ -10,7 +10,7 @@ This a newsweek clone from the original website. The main agenda behind creating
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/menyagah/Newsweekclone/959bba2d4fd40ea80956ca2e7f0baf5e5d589bdb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/menyagah/Newsweekclone/b1ccb396c4edc4b52c645bca7f8180f10665012d/index.html)
 
 
 ## Getting Started
@@ -35,6 +35,7 @@ This was a solo project. The project uses basic html5 and css3.
 - Github: [@menyagah](https://github.com/menyagah)
 - Twitter: [@Martinnyaga20](https://twitter.com/Martinnyaga20)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Email: [email](menyagah27@gmail.com)
 
 
 ## 🤝 Contributing
