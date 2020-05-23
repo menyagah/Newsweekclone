@@ -35,7 +35,7 @@ This was a solo project. The project uses basic html5 and css3.
 - Github: [@menyagah](https://github.com/menyagah)
 - Twitter: [@Martinnyaga20](https://twitter.com/Martinnyaga20)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-- Email: [email](menyagah27@gmail.com)
+- Email: [menyagah27@gmail.com]
 
 
 ## 🤝 Contributing
