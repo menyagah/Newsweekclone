@@ -19,7 +19,7 @@ body {
 
 .top-header {
   height: 110px;
-  background-color: #ef4430;
+  background-color: #ee2e29;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 100%, 94% 88%, 0% 88%);
 }
 
@@ -457,6 +457,11 @@ body {
   color: grey;
 }
 
+.logo-cont {
+  display: flex;
+  align-items: flex-end;
+}
+
 @media only screen and (max-width: 1024px) {
   .card-center {
     height: 15em;
@@ -604,7 +609,9 @@ body {
   }
 
   .footer-top {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .img-fluid {
@@ -621,6 +628,12 @@ body {
 
   .mobile-view {
     display: inline;
+  }
+
+  .logo-cont {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 
